@@ -1,0 +1,37 @@
+body {
+    background: powderblue;
+}
+
+.row {
+    background: ghostwhite;
+}
+
+.list-group {
+    max-height: 42vh;
+    overflow-y: auto;
+}
+
+.list-group-item {
+    color: black;
+    margin: 5px;
+    font-weight: bolder;
+}
+
+.list-group-item:nth-child(odd){
+    background: aquamarine;
+}
+
+.list-group-item:nth-child(even){
+    background: deepskyblue;
+}
+
+::-webkit-scrollbar {
+    width: 0.6rem;
+    border-radius: .5rem;
+    background: navy;
+  }
+  
+  ::-webkit-scrollbar-thumb {
+    border-radius: .5rem;
+    background: powderblue;
+  }
